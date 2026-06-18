@@ -1,0 +1,12 @@
+base_model = "alibaba/qwen3.6-27b"
+
+[interleaved]
+field = "reasoning_content"
+
+[cost]
+input = 0.45
+output = 3.6
+cache_read = 0.45
+
+[modalities]
+input = ["text", "image"]
